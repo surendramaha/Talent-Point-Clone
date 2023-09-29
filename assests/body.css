@@ -1,0 +1,91 @@
+.main-container{
+    /* border: 5px solid brown; */
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    height: 90px;
+    width: 700px;
+    flex-direction: column; 
+    padding: 30px;
+    margin: 30px;
+     
+     
+}
+
+.main-text{
+    /* border: 3px solid black; */
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.main-nxttext{
+    /* border: 2px solid yellow; */
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 500px;
+    line-height: 2;
+}
+
+.main-image{
+    /* border: 2px solid green; */
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.main-image-first img{
+    height: 250px;
+    width: 226px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.main-image-second img{
+    width: 226px;
+    height: 250px;
+    margin-top: 50px;
+}
+/********* COMPANY NAME STARTS**********/
+.company-name{
+    display: flex; 
+    background-color: #f6f6f6;
+    margin-bottom: 20px;    
+}
+
+.company{
+    height: 47.71px;
+    width: 167px;
+    margin-left: 20px;
+    }
+
+.company img{
+    filter: grayscale(100%);
+        }
+
+.company img:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.team-member{
+    display: flex;   
+}
+
+.talent-team{
+   cursor: pointer;
+    padding: 20px;  
+}
+
+
+figcaption{
+    padding: 2px;
+    text-align: center;
+}
